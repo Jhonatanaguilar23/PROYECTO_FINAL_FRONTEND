@@ -12,6 +12,7 @@ import * as Yup from 'yup';
 import axios from 'axios';
 
 // eslint-disable-next-line react/prop-types
+//TODO split up into different small components considering which are stateless and statefull 
 export default function UpdateProduct ({idUpdate, load, setLoad}) {
   const [open, setOpen] = useState(false);
   const [formData, setFormData] = useState({});
